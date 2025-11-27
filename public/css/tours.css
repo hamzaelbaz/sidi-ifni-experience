@@ -1,0 +1,301 @@
+@font-face {
+	font-family: "Instrument Sans";
+	src: url(/fonts/InstrumentSans-Regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Instrument Sans";
+	src: url(/fonts/InstrumentSans-Medium.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Instrument Sans";
+	src: url(/fonts/InstrumentSans-Bold.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Instrument Serif";
+	src: url(/fonts/InstrumentSerif-Regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: "Instrument Serif";
+	src: url(/fonts/InstrumentSerif-Italic.woff2) format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap
+}
+
+.header-container {
+	background: linear-gradient(180deg, #cbd8d2, #fdfcfb); 
+	color: #081C2B
+}
+
+.tours {
+	background: none
+}
+
+.tours-section-title {
+	text-align: center;
+	margin-top: 4rem
+}
+
+a:hover {
+	color: #081C2B;
+	background: #FDFCFB
+}
+
+li a:hover {
+	background: #FDFCFB
+}
+
+.tour-informations {
+	background: none;
+	padding: 0
+}
+
+.tours-section-container {
+	margin: 0 auto;
+	padding: 0
+}
+
+.menu-list a {
+	color: #fff
+}
+
+.dashed-line {
+	width: 100%;
+	transform: scaleX(0);
+	transform-origin: left;
+	border: 1px dashed rgb(0 0 0 / .4);
+	margin: 0 auto;
+	transition: all 1.5s ease
+}
+
+.tours-section-container {
+	margin: 8rem auto 0 auto
+}
+
+.blur-paragraph {
+	opacity: 0;
+	filter: blur(4px);
+	transition: all 700ms ease-in-out
+}
+
+address.tours-section-content {
+	display: flex;
+	width: 95%;
+	margin: 4rem auto;
+	flex-wrap: wrap;
+	gap: .5rem
+}
+
+address.tours-section-content .contact-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.5rem;
+	background: #fff;
+	border-radius: .5rem;
+	width: 100%;
+	height: 222px;
+	font-family: "Instrument Sans";
+	font-style: normal;
+	font-weight: 400
+}
+
+.contact-item h3 {
+	font-size: 1.25rem;
+	margin: 0
+}
+
+.contact-item .contact-icon {
+	width: 8%
+}
+
+.header-container.contact {
+	background: #b89433
+}
+
+.booking-form {
+	padding-bottom: 1rem;
+	color: #fff
+}
+
+.booking-form-container {
+	width: 95%;
+	margin: 3.5rem auto;
+	background: #1b2e3c;
+	border-radius: .75rem;
+	padding: 2rem 1.5rem
+}
+
+.booking-form-container h3 {
+	font-size: 1.75rem
+}
+
+.booking-form-container p {
+	margin: 2.5rem 0
+}
+
+form input,form select {
+	border: 1px dashed rgb(255 255 255 / .4);
+	background: none;
+	color: #fff;
+	padding: 1rem .75rem;
+	border-radius: .5rem;
+	width: 100%;
+	margin-top: .625rem
+}
+
+form div {
+	margin-bottom: 1.5rem
+}
+
+#message {
+	padding: 1rem .75rem 9.5rem .75rem
+}
+
+#submit {
+	width: 100%
+} 
+
+/* ////////////////////////////////////////////// */
+.stay-section-content {
+	margin: 4rem auto;
+	gap: 2rem 1.5rem; 
+	display: flex;
+	flex-direction: column;
+}
+.stay-article {
+	height: 450px;
+	width: 95%;
+	position: relative;
+	border-radius:10px;
+	margin: 0 auto;
+	color: white;
+	display: grid;
+	place-items: center ; 
+}
+.stay-article img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius:10px;
+	z-index: 2;
+}
+.stay-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 90%;
+	z-index: 10; 
+}
+.stay-informations {
+	text-align: center;
+}
+.stay-price {
+	font-size: .5rem;
+	display: flex;
+	align-items: center;
+	background: color-mix(in srgb, white 48%, transparent);
+	border-radius: 24px;
+	font-family: "Instrument Sans";
+	color: #081c2b;
+	padding: 4px 12px 4px 4px;
+	backdrop-filter: blur(5px);
+}
+.stay-informations h3 {
+	font-family: "Instrument Serif";
+	font-size: 2rem;
+	line-height: 100%;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+.stay-price-title {
+	padding: 8px 12px;
+	background: white;
+	border-radius: 24px;
+	line-height: 125%;
+	font-weight: 700;
+	
+}
+.btn.explore.stay {
+	background: color-mix(in srgb, white 16%, transparent);
+	backdrop-filter: blur(5px);
+	color: white;
+}
+.stay-btns {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+}
+.stay-btns .btn.explore {
+	margin: 0;
+}
+.overlay-room-card {
+	background-image: linear-gradient(180deg, color-mix(in srgb, #081c2b 0%, transparent),#081c2b );
+	position: absolute;
+	width: 100%;
+	height:320px;
+	z-index: 5;
+	bottom: 0;
+	border-radius: 10px;
+}
+.stay-btns .btn.explore.hover-btn:hover {
+	background: #b89433;
+	color: white;
+}  
+
+@media screen and (min-width:600px) {
+	html {
+		font-size: 1.2rem
+	}
+
+	:root {
+		--main-width: 95%
+	}
+
+	.tours-page .faqs-container {
+		width: 95%
+	}
+
+	address.tours-section-content .contact-item {
+		width: 49%;
+		height: 250px
+	}
+
+	.contact-item a {
+		font-size: .75rem
+	}
+}
+
+@media screen and (min-width:750px) {
+	.tours-page .faqs-container {
+		width: 95%
+	}
+
+	address.tours-section-content .contact-item {
+		width: 49%;
+		height: 320px
+	}
+
+
+	.stay-article{
+		height: 520px;
+	}
+}

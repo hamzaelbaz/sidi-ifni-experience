@@ -1,0 +1,730 @@
+:root {
+	--main-width: 85%
+}
+
+html {
+	font-size: 1.3rem
+}
+
+.header-container.main {
+	border-radius: 1.2rem 1.2rem 0 0;
+	background-image: url(/images/main-img_950.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(0 0 0 / .5);
+	background-blend-mode: darken;
+	min-height: 100svh;
+	height: auto;
+	position: relative;
+	padding-bottom: 8px
+}
+
+.slide-img-one {
+	background: url(/images/casablanca.webp);
+	background-size: cover
+}
+
+.slide-img-two {
+	background: url(/images/lobby.webp);
+	background-size: cover
+}
+
+.slide-img-three {
+	background: url(/images/chambreDouble.jpg);
+	background-size: cover
+}
+
+.slide-img-four {
+	background: url(/images/chambreTriple.jpg);
+	background-size: cover
+}
+
+.slide-img-five {
+	background: url(/images/fes.webp);
+	background-size: cover
+}
+
+.slide-img-six {
+	background: url(/images/ouarzazate.webp);
+	background-size: cover
+}
+
+.slide-img {
+	height: 480px
+}
+
+.about-section-container,
+.tours-section-content {
+	display: flex;
+	gap: 4%;
+	align-items: flex-start
+}
+
+.about-section-content {
+	width: 45%
+}
+
+.about-section-img {
+	width: 50%;
+	background-image: url(/images/about-main.jpeg);
+	height: 520px
+}
+
+.tours-section-content {
+	flex-wrap: wrap
+}
+
+.tour-informations {
+	width: 48%
+}
+
+#main-menu {
+	display: none !important
+}
+
+.menu-btn {
+	display: none
+}
+
+.list-container {
+	display: block
+}
+
+.list-container ul {
+	display: flex
+}
+
+.main-nav-links a:hover {
+	background: #b89433;
+	color: #fff
+}
+
+.main-nav-links {
+	margin-right: .3em
+}
+
+.main-nav-links a {
+	font-size: .57rem;
+	font-family: var(--ff-sans);
+	font-weight: 700;
+	letter-spacing: 2px;
+	background: rgb(255 255 255 / .16);
+	padding: .38rem.576rem;
+	border-radius: .76rem
+}
+
+.book-btn-two {
+	display: block;
+	width: fit-content;
+	border: 2px solid #fff;
+	padding: .30rem.570rem;
+	border-radius: .8rem;
+	font-size: .75rem
+}
+
+.header-container nav {
+	align-items: center
+}
+
+.logo {
+	display: flex;
+	justify-content: center
+}
+
+.logo img {
+	width: 120px
+}
+
+.notification {
+	padding: .2rem
+}
+
+.faqs-container {
+	display: flex
+}
+
+.faqs-content-container {
+	width: 85%
+}
+
+.added-infos {
+	flex-direction: column;
+	gap: .38rem
+}
+
+.tours-page.added-infos {
+	flex-direction: row
+}
+
+.tours-page.faqs-container {
+	width: 95%
+}
+
+.booking-btn-container {
+	justify-content: flex-end
+}
+
+.first-section-icons {
+	flex-wrap: nowrap
+}
+
+.first-section-icons figure {
+	width: 220px
+}
+
+.footer-content-container {
+	flex-direction: row;
+	justify-content: flex-start
+}
+
+footer address {
+	padding-top: 1rem
+}
+
+.book-btn {
+	width: 88px
+}
+
+.testimonial-card {
+	width: 65%;
+	animation: large-screen 20s linear infinite
+}
+
+.slider-container {
+	height: 45rem
+}
+
+.gallery-container img {
+	width: 440px;
+	height: 440px
+}
+
+.about-main-section {
+	display: flex;
+	justify-content: space-between
+}
+
+.about-main-section p {
+	width: 70%;
+	margin-top: 0
+}
+
+.about-main-section h2 {
+	width: 20%
+}
+
+.about-testimony-section {
+	background: url(/images/see-about_950.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgb(0 0 0 / .3);
+	background-blend-mode: darken;
+	height: 920px
+}
+
+.about-testimony-title {
+	width: 50%
+}
+
+.tours-page.tours-section-container {
+	width: 95%
+}
+
+.tours-btn {
+	font-size: .5rem;
+	text-align: center;
+	padding: .7rem.85rem;
+	width: 180px
+}
+
+.activities.header-container {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, #fff010 0%), url(/images/camel-tours_1080.webp)
+}
+
+.header-container.surfing {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, #fff010 0%), url(/images/surfing-main_1080.jpg)
+}
+
+.header-container.camelRide {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/camel-tour-main_950.webp)
+}
+
+.header-container.quad {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/beach-camp-main_950.jpg)
+}
+
+.header-container.balloon {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mountain-trip-main_950.jpg)
+}
+
+.header-container.marrakech {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/camel-ride-main_950.jpg)
+}
+
+.header-container.essaouira {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/local-journey_950.jpg)
+}
+
+.header-container.agadir {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/white-beach_950.jpg)
+}
+
+.header-container.casablanca {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/fishing-experience-main_950.jpg)
+}
+
+.header-container.fes {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/sidiifni-journey_950.webp)
+}
+
+.header-container.ouarzazate {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mount-journey_950.jpg)
+}
+
+.header-container.chefchaoune {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/chefchaoune-main_950.jpg)
+}
+
+.activities.header-container,
+.header-container.surfing,
+.header-container.camelRide,
+.header-container.quad,
+.header-container.balloon,
+.header-container.marrakech,
+.header-container.essaouira,
+.header-container.agadir,
+.header-container.casablanca,
+.header-container.fes,
+.header-container.header-container.ouarzazate,
+.header-container.header-container.chefchaoune {
+	background-blend-mode: darken;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative
+}
+.activity-description,
+.additionnal-infos,
+.additionnal-infos-two,
+.booking-form-container,
+.activity-time {
+	width: 85%
+}
+
+.main-activity-img {
+	width: 90%
+}
+
+address.tours-section-content.contact-item {
+	width: 32.5%;
+	height: 400px
+}
+
+
+
+
+.stay-section-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.stay-article {
+    width: 48%; 
+    margin: 0 auto;
+    height: 450px;
+}
+.stay-price {
+    font-size: 10px;
+}
+@media screen and (min-width:1120px) {
+	:root {
+		--main-width: 85%
+	}
+	.header-container.main {
+		border-radius: 1.2rem 1.2rem 0 0;
+		background-image: url(/images/main-img_1080.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: rgb(0 0 0 / .5);
+		background-blend-mode: darken;
+		min-height: 100svh;
+		height: auto;
+		position: relative;
+		padding-bottom: 8px
+	}
+
+	.slide-img {
+		height: 510px
+	}
+
+	.slider-container article {
+		width: 50%
+	}
+
+	.slider-container {
+		height: 46rem
+	}
+
+	.about-testimony-section {
+		background: url(/images/see-about_1080.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: rgb(0 0 0 / .3);
+		background-blend-mode: darken
+	}
+
+	.tours-page.tours-section-container {
+		width: 95%
+	}
+
+	.tours-page.faqs-container {
+		width: 95%
+	}
+
+	.activities.header-container {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, #fff010 0%), url(/images/camel-tours.webp)
+	}
+
+	.header-container.surfing {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .5)100%), url(/images/surfing-main_1080.jpg)
+	}
+
+	.header-container.camelRide {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/beach-trekking-main_1080.jpg)
+	}
+
+	.header-container.quad {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/beach-camp-main_1080.jpg)
+	}
+
+	.header-container.balloon {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mountain-trip-main_1080.jpg)
+	}
+
+	.header-container.marrakech {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/camel-ride-main_1080.jpg)
+	}
+
+	.header-container.essaouira {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/local-journey_1080.jpg)
+	}
+
+	.header-container.agadir {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/white-beach_1080.jpg)
+	}
+
+	.header-container.casablanca {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/fishing-experience-main_1080.jpg)
+	}
+
+	.header-container.fes {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/sidiifni-journey_1080.webp)
+	}
+
+	.header-container.ouarzazate {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mount-journey_1080.jpg)
+	}
+
+	.header-container.chefchaoune {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/chefchaoune-main_1080.jpg)
+	}
+
+	.activities.header-container,
+	.header-container.surfing,
+	.header-container.camelRide,
+	.header-container.quad,
+	.header-container.balloon,
+	.header-container.marrakech,
+	.header-container.essaouira,
+	.header-container.agadir,
+	.header-container.casablanca,
+	.header-container.fes,
+	.header-container.header-container.ouarzazate,
+	.header-container.header-container.chefchaoune {
+		background-blend-mode: darken;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative
+	}
+
+    .stay-btns .btn.explore.hover-btn {
+        padding: .5rem .8rem; 
+    }
+}
+
+@media screen and (min-width:1250px) {
+	.testimonial-card {
+		width: 47%;
+		animation: very-large-screen 20s linear infinite
+	}
+
+	.header-container.main {
+		border-radius: 1.2rem 1.2rem 0 0;
+		background-image: url(/images/main-img_1250.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: rgb(0 0 0 / .5);
+		background-blend-mode: darken;
+		min-height: 100svh;
+		height: auto;
+		position: relative;
+		padding-bottom: 8px
+	}
+
+	.about-testimony-section {
+		background: url(/images/see-about_1250.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: rgb(0 0 0 / .3);
+		background-blend-mode: darken
+	}
+
+	.tours-page.faqs-container {
+		width: 95%
+	}
+	
+.activity-description.reservation {
+	flex-direction: row;
+	gap: 1rem;
+	align-items: flex-start;
+	justify-content: space-between; 
+}
+.activity-description .reservation-options {
+	width: 35%;
+}
+.activity-description-content {
+	width: 60%;
+}
+
+	.activity-description,
+	.additionnal-infos,
+	.additionnal-infos-two,
+	.booking-form-container,
+	.activity-time {
+		width: 80%
+	}
+
+	.main-activity-img {
+		width: 85%
+	}
+
+	.activities.header-container.surfing {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .5)100%), url(/images/surfing-main_1250.jpg)
+	}
+
+	.header-container.camelRide {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/beach-trekking-main_1250.jpg)
+	}
+
+	.header-container.quad {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/beach-camp-main_1250.jpg)
+	}
+
+	.header-container.balloon {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mountain-trip-main_1250.jpg)
+	}
+
+	.header-container.marrakech {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/camel-ride-main_1250.jpg)
+	}
+
+	.header-container.essaouira {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/local-journey_1250.jpg)
+	}
+
+	.header-container.agadir {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/white-beach_1250.jpg)
+	}
+
+	.header-container.casablanca {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/fishing-experience-main_1250.jpg)
+	}
+
+	.header-container.fes {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/sidiifni-journey_1250.webp)
+	}
+
+	.header-container.ouarzazate {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mount-journey_1250.jpg)
+	}
+
+	.header-container.chefchaoune {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/chefchaoune-main_1250.jpg)
+	}
+
+	.activities.header-container,
+	.activities.header-container.surfing,
+	.header-container.camelRide,
+	.header-container.quad,
+	.header-container.balloon,
+	.header-container.marrakech,
+	.header-container.essaouira,
+	.header-container.agadir,
+	.header-container.casablanca,
+	.header-container.fes,
+	.header-container.header-container.ouarzazate,
+	.header-container.header-container.chefchaoune {
+		background-blend-mode: darken;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative
+	}
+
+	address.tours-section-content.contact-item {
+		width: 24.1%
+	}
+
+    .stay-price {
+    font-size: 12px;
+}
+}
+
+@media screen and (min-width:1450px) {
+	html {
+		font-size: 1.4rem
+	}
+
+	.header-container.main {
+		border-radius: 1.2rem 1.2rem 0 0;
+		background-image: url(/images/main-img.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: rgb(0 0 0 / .5);
+		background-blend-mode: darken;
+		min-height: 100svh;
+		height: auto;
+		position: relative;
+		padding-bottom: 8px
+	}
+
+	.about-testimony-section {
+		background: url(/images/see-about.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: rgb(0 0 0 / .3);
+		background-blend-mode: darken
+	}
+
+	.testimonial-card {
+		width: 40%;
+		animation: xx-large-screen 20s linear infinite
+	}
+
+	.tour-informations {
+		width: 32%
+	}
+
+	.about-section-container,
+	.tours-section-content {
+		gap: 2%
+	}
+
+	.activity-description,
+	.additionnal-infos,
+	.additionnal-infos-two,
+	.booking-form-container,
+	.activity-time {
+		width: 65%
+	}
+
+	.main-activity-img {
+		width: 70%
+	}
+
+	.activities.header-container.surfing {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .5)100%), url(/images/surfing-main.jpg)
+	}
+
+	.header-container.camelRide {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/beach-trekking-main.jpg)
+	}
+
+	.header-container.quad {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/beach-camp-main.jpg)
+	}
+
+	.header-container.balloon {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mountain-trip-main.jpg)
+	}
+
+	.header-container.marrakech {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/camel-ride-main.jpg)
+	}
+
+	.header-container.essaouira {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/local-journey.jpg)
+	}
+
+	.header-container.agadir {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/white-beach.jpg)
+	}
+
+	.header-container.casablanca {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/fishing-experience-main.jpg)
+	}
+
+	.header-container.fes {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/sidiifni-journey.webp)
+	}
+
+	.header-container.ouarzazate {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/mount-journey.jpg)
+	}
+
+	.header-container.chefchaoune {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .2)100%), url(/images/chefchaoune-main.jpg)
+	}
+
+	.activities.header-container,
+	.activities.header-container.surfing,
+	.header-container.camelRide,
+	.header-container.quad,
+	.header-container.balloon,
+	.header-container.marrakech,
+	.header-container.essaouira,
+	.header-container.agadir,
+	.header-container.casablanca,
+	.header-container.fes,
+	.header-container.header-container.ouarzazate,
+	.header-container.header-container.chefchaoune {
+		background-blend-mode: darken;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative
+	}
+}
+
+@keyframes large-screen {
+	from {
+		transform: translateX(0)
+	}
+
+	to {
+		transform: translateX(-260%)
+	}
+}
+
+@keyframes very-large-screen {
+	from {
+		transform: translateX(0)
+	}
+
+	to {
+		transform: translateX(-200%)
+	}
+}
+
+@keyframes xx-large-screen {
+	from {
+		transform: translateX(0)
+	}
+
+	to {
+		transform: translateX(-168%)
+	}
+}
