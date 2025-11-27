@@ -12,14 +12,14 @@ exports.handler = async function (event, context) {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'Abdelhalimyoussef98@gmail.com',
-                pass: 'nkto pjym vzbp obju',
+                user: 'elbazhamzahb@gmail.com',
+                pass: 'dgmi mkqx jwzy ptrt',
             },
         });
 
         let message = {
             from: 'elbazhamzahb@gmail.com',
-            to: 'Halimsmoroccojourney@gmail.com',
+            to: 'elbazhamza77@gmail.com',
             subject: 'Email de Contact',
             text: 'Hello world?',
             html: `
