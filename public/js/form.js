@@ -6,8 +6,7 @@ const form = document.querySelector("form"),
    activity = document.querySelector('#activity'),
    program = document.querySelector('#program'),
    count = document.querySelector('#count'),
-   formMessage = document.querySelector('.submition-message')
-   console.log(count);
+   formMessage = document.querySelector('.submition-message') 
 form.addEventListener("submit", async e => {
    e.preventDefault(); 
    let a = nom.value,

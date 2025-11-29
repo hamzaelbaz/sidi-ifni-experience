@@ -47,6 +47,7 @@ exports.handler = async function (event, context) {
       margin-bottom : 1.2rem;
       border: 1px solid grey;
       padding:5px;
+      border-radius:5px; 
     }
      h5 {
       margin:0;
@@ -60,7 +61,7 @@ exports.handler = async function (event, context) {
   </head>
   <body> 
 <p>Salut</p>
-<p>Voici le <strong>Message de contact</strong> 
+<p>Voici le <strong>Message de contact</strong></p> 
 <br>
 <br>
 <div>
@@ -90,8 +91,7 @@ exports.handler = async function (event, context) {
 <div>
 <h5>Message :</h5>
 <p>${messages}</p>
-</div> 
-</p>  
+</div>  
 <footer>
 <a href="https://sidiifniexperience.com/">sidiifniexperience.com</a>.
 </footer>
