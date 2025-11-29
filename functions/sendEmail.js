@@ -86,7 +86,7 @@ exports.handler = async function (event, context) {
 <p>${activities || 'No activity has been chosen'}</p>
 </div>
 <div>
-<h5>Activity :</h5>
+<h5>Message :</h5>
 <p>${messages}</p>
 </div> 
 </p>  
