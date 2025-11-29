@@ -44,7 +44,7 @@ exports.handler = async function (event, context) {
     }
      
     div {
-      margin-bottom : 1rem;
+      margin-bottom : 1.2rem;
     }
      h5 {
       margin:0;
@@ -59,24 +59,26 @@ exports.handler = async function (event, context) {
   <body> 
 <p>Salut</p>
 <p>Voici le <strong>Message de contact</strong> 
+<br>
+<br>
 <div>
-<h5>Name :</h5>
+<h4>Name :</h4>
 <p>${name}</p>
 </div>
 <div>
-<h5>Email :</h5>
+<h4>Email :</h4>
 <p>${emails}</p>
 </div>
 <div>
-<h5>Phone :</h5>
+<h4>Phone :</h4>
 <p>${tele}</p>
 </div>
 <div>
-<h5>Nomber of participans :</h5>
+<h4>Nomber of participans :</h4>
 <p>${counts}</p>
 </div>
 <div>
-<h5>Program :</h5>
+<h4>Program :</h4>
 <p>${programs || 'No program has been chosen'}</p>
 </div>
 <div>
