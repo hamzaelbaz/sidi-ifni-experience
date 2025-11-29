@@ -5,7 +5,7 @@ exports.handler = async function (event, context) {
         const requestBody = JSON.parse(event.body);
         console.log('Parsed request body:', requestBody);
 
-        const { name, messages, emails, tele } = requestBody;
+        const { name, messages, emails, tele, activities, programs, counts } = requestBody;
 
         console.log('Email details:', { name, messages, emails, tele, activities, programs, counts });
 
