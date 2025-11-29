@@ -45,6 +45,8 @@ exports.handler = async function (event, context) {
      
     div {
       margin-bottom : 1.2rem;
+      border: 1px solid grey;
+      padding:5px;
     }
      h5 {
       margin:0;
