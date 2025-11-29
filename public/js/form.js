@@ -26,7 +26,7 @@ form.addEventListener("submit", async e => {
          activities : c,
          programs : d,
          counts: v
-      }), nom.value = "", email.value = "", message.value = "", tel.value = "" 
+      }), nom.value = "", email.value = "", message.value = "", tel.value = "", count.value = "",program.value ='', activity.value='' 
    } catch (s) {
       console.error("oups! elle y a une erreur:", s)
    }
