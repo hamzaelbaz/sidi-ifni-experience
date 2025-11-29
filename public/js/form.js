@@ -7,8 +7,10 @@ const form = document.querySelector("form"),
    program = document.querySelector('#program'),
    count = document.querySelector('#count'),
    formMessage = document.querySelector('.submition-message')
+   
 form.addEventListener("submit", async e => {
    e.preventDefault();
+   console.log(count);
    let a = nom.value,
       n = email.value,
       o = message.value,
