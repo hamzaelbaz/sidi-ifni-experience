@@ -44,39 +44,47 @@ exports.handler = async function (event, context) {
     }
      
     div {
-      margin-bottom : 12px;
+      margin-bottom : 1rem;
     }
+     h5 {
+      margin:0;
+     }
+     p {
+      margin-top:8px;
+      font-size:1.2rem;
+      font-weight:600;
+     }
     </style>
   </head>
   <body> 
 <p>Salut</p>
 <p>Voici le <strong>Message de contact</strong> 
 <div>
-<h6>Name :</h6>
+<h5>Name :</h5>
 <p>${name}</p>
 </div>
 <div>
-<h6>Email :</h6>
+<h5>Email :</h5>
 <p>${emails}</p>
 </div>
 <div>
-<h6>Phone :</h6>
+<h5>Phone :</h5>
 <p>${tele}</p>
 </div>
 <div>
-<h6>Nomber of participans :</h6>
+<h5>Nomber of participans :</h5>
 <p>${counts}</p>
 </div>
 <div>
-<h6>Program :</h6>
+<h5>Program :</h5>
 <p>${programs || 'No program has been chosen'}</p>
 </div>
 <div>
-<h6>Activity :</h6>
+<h5>Activity :</h5>
 <p>${activities || 'No activity has been chosen'}</p>
 </div>
 <div>
-<h6>Activity :</h6>
+<h5>Activity :</h5>
 <p>${messages}</p>
 </div> 
 </p>  
