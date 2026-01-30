@@ -245,7 +245,9 @@ footer address {
 .header-container.surfing {
 	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, #fff010 0%), url(/images/surfing-main_1080.jpg)
 }
-
+.header-container.diningExperience {
+	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/diningExperience_950.webp)
+}
 .header-container.camelRide {
 	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/camel-tour-main_950.webp)
 }
@@ -289,6 +291,7 @@ footer address {
 .activities.header-container,
 .header-container.surfing,
 .header-container.camelRide,
+.header-container.diningExperience,
 .header-container.quad,
 .header-container.balloon,
 .header-container.marrakech,
@@ -391,6 +394,9 @@ address.tours-section-content.contact-item {
 	.header-container.surfing {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .5)100%), url(/images/surfing-main_1080.jpg)
 	}
+	.header-container.diningExperience {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/diningExperience_1080.webp)
+	}
 
 	.header-container.camelRide {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/beach-trekking-main_1080.jpg)
@@ -435,6 +441,7 @@ address.tours-section-content.contact-item {
 	.activities.header-container,
 	.header-container.surfing,
 	.header-container.camelRide,
+	.header-container.diningExperience,
 	.header-container.quad,
 	.header-container.balloon,
 	.header-container.marrakech,
@@ -515,6 +522,9 @@ address.tours-section-content.contact-item {
 	.activities.header-container.surfing {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .5)100%), url(/images/surfing-main_1250.jpg)
 	}
+	.header-container.diningExperience {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/diningExperience_1250.webp)
+	}
 
 	.header-container.camelRide {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/beach-trekking-main_1250.jpg)
@@ -559,6 +569,7 @@ address.tours-section-content.contact-item {
 	.activities.header-container,
 	.activities.header-container.surfing,
 	.header-container.camelRide,
+	.header-container.diningExperience,
 	.header-container.quad,
 	.header-container.balloon,
 	.header-container.marrakech,
@@ -639,6 +650,9 @@ address.tours-section-content.contact-item {
 	.activities.header-container.surfing {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .5)100%), url(/images/surfing-main.jpg)
 	}
+	.header-container.diningExperience {
+		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/diningExperience_1450.webp)
+	}
 
 	.header-container.camelRide {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8)50%, rgb(0 17 29 / .1)100%), url(/images/beach-trekking-main.jpg)
@@ -683,6 +697,7 @@ address.tours-section-content.contact-item {
 	.activities.header-container,
 	.activities.header-container.surfing,
 	.header-container.camelRide,
+	.header-container.diningExperience,
 	.header-container.quad,
 	.header-container.balloon,
 	.header-container.marrakech,
